@@ -1,0 +1,25 @@
+:root{
+    --yellow:#FFBC00;
+    --green:#00FF3C;
+    --blue:#0043FF;
+    --pink:#FF00C3;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    line-height: 1.6;
+    
+}
+
