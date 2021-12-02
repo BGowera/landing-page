@@ -1,16 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <img src="/img/Logo.png" alt="nesthub logo" id="header-img" />
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#about" class="nav-link btn">about</a></li>
+            <li><a href="#store" class="nav-link btn">buy now</a></li>
+            <li><a href="#mailing-list" class="nav-link btn">join us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="about">
+        <h2>About us</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          cupiditate, temporibus repellendus odio ea error excepturi, tenetur
+          inventore quam, dicta dolorum aut libero delectus culpa! Optio et
+          nihil quam labore dolorem. Voluptatum unde error porro earum, minus
+          cumque aut dolore quasi placeat dolor debitis voluptatem ipsum facere
+          provident dolores sapiente repellendus temporibus facilis alias nobis
+          dolorum doloremque perspiciatis? Dolorum officia molestias libero
+          sequi nihil veritatis minus maiores! Eius amet impedit dicta voluptas
+          obcaecati magnam blanditiis, consectetur repellendus quis facilis
+          exercitationem.
+        </p>
+        <iframe
+          id="video"
+          src="https://www.youtube.com/embed/Cz5AMSOO2x4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="store">
+        <h2>Buy your own today</h2>
+        <div class="showcase">
+          <div class="showcase-img">
+            <h3>basic package</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+              eligendi quae sit? Officia, accusantium dignissimos.
+            </p>
+            <img
+              src="/img/Basic.jpg"
+              alt="a picture of a single matryoshka doll"
+            />
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="showcase-img">
+            <h3>standard package</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+              eligendi quae sit? Officia, accusantium dignissimos.
+            </p>
+            <img src="/img/Standard.jpg" alt="5 matryoshka dolls in a line" />
+            <a href="#" class="btn">Buy Now</a>
+            <p>price</p>
+          </div>
+          <div class="showcase-img">
+            <h3>deluxe package(most popular)</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+              eligendi quae sit? Officia, accusantium dignissimos.
+            </p>
+            <img src="/img/Deluxe.jpg" alt="multiple matryoshka dolls" />
+            <a href="#" class="btn">Buy Now</a>
+            <p>price</p>
+          </div>
+          <div class="showcase-img">
+            <h3>super-deluxe package</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+              eligendi quae sit? Officia, accusantium dignissimos.
+            </p>
+            <img src="/img/Super Deluxe.jpg" alt="multiple matryoshka dolls" />
+            <a href="#" class="btn">Buy Now</a>
+            <p>price</p>
+          </div>
+        </div>
+      </section>
+      <section id="mailing-list">
+        <label for="signup">Lorem ipsum dolor sit amet consectetur.</label>
+        <form
+          action="https://www.freecodecamp.com/email-submit"
+          id="form"
+          name="signup"
+        >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="you@example.com"
+          />
+          <input type="submit" id="submit" value="join now" />
+        </form>
+      </section>
+      <footer id="footer">
+        Lorem ipsum dolor sit amet consectetur.&copy;2021
+      </footer>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>
