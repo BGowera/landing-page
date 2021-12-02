@@ -1,25 +1,69 @@
-:root{
-    --yellow:#FFBC00;
-    --green:#00FF3C;
-    --blue:#0043FF;
-    --pink:#FF00C3;
+:root {
+  --yellow: #ffbc00;
+  --green: #00ff3c;
+  --blue: #0043ff;
+  --pink: #ff00c3;
 }
 
-html{
-    font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
+html {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    display:flex;
-    flex-direction: column;
-    line-height: 1.6;
-    
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  max-width: 104em;
 }
 
+#header {
+  padding: 7em auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(/img/logopale.png),
+    linear-gradient(135deg, var(--blue) 0%, var(--blue) 100%);
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title {
+  color: #fff;
+font-size: 3em;
+}
+
+#header-img {
+  width: 20%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap:2em;
+}
+
+img {
+    display:block;
+  max-width: 100%;
+}
+
+.btn {
+  padding: 2em 1em;
+  text-decoration: none;
+  text-transform: capitalize;
+  display:inline-block;
+  background-color: var(--green);
+  /* border: 2px solid red; */
+}
