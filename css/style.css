@@ -9,7 +9,7 @@
 html {
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
-  /* scroll-padding-top: 30em; */
+  scroll-padding-top: 19.7em;
 
 }
 
@@ -20,11 +20,20 @@ box-sizing: border-box;
 }
 
 h3{
-
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  
 }
+
 
 h4{
 
+}
+
+section{
+  margin-top:1.5em;
 }
 
 .btn{
@@ -44,15 +53,128 @@ border-radius: 1em;
   transform:scale(1.1);
   opacity:0.9;
   text-decoration: underline;
+  box-shadow: 1px 1px #a59f9f;
 }
 
 img{
-  
+  display:block;
+  max-width:100%;
 }
 
 .container{
 width:95%;
 margin:0 auto;
 max-width:116em;
+background-color: var(--cream);
+line-height: 1.6;
 }
 
+.spacing > * + *{
+    margin-top: 1.5rem;
+}
+
+#header{
+display:flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+padding:2.5em 1.5em;
+background-image: url(/img/logopale.png), linear-gradient(115deg, #0043FF 0%, #3D00FF 60%, #00C3FF 100%); 
+background-blend-mode: multiply;  
+background-repeat: repeat-x;
+position: sticky;
+top:0;
+z-index: 2;
+  
+}
+
+#nav-bar>ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap:2.5em;
+  flex-wrap: wrap;
+}
+
+#header-img{
+  width:20em;
+  height:10em;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+#about{
+  font-size: 1.6em;
+}
+
+#video{
+  width:70vw;
+  height: auto;
+  max-width: 100%;
+}
+
+.showcase{
+  display:flex;
+  gap:2em;
+  flex-wrap: wrap;
+}
+
+
+.showcase-img{
+  flex-basis: 50%;
+  
+}
+
+
+.showcase-img>img{
+  width:40vw;
+  height:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+  #header-img{
+    width:10em;
+    height:5em;
+  }
+
+  .btn{
+     padding:.5em .75em;
+     font-size: 1em;
+  }
+
+
+  #about{
+    font-size: 1em;
+  }
+ 
+}
